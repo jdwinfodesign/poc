@@ -1,0 +1,273 @@
+Executing:
+"C:\Users\jdwin\Documents\preprocessing\dita-ot-4.1.2/bin/dita.bat" -v -f jdwinfodesignHtml5 -o C:\Users\jdwin\Documents\preprocessing\00-simple/out/jdwinfodesignHtml5 -t C:\Users\jdwin\Documents\preprocessing\00-simple/temp/jdwinfodesignHtml5 -i C:\Users\jdwin\Documents\preprocessing\00-simple\simple.ditamap "-Dclean.temp=no"
+
+Searching for integrator.xml ...
+
+init:
+
+dita2jdwinfodesignHtml5.init:
+
+html5.init:
+
+init-properties:
+[init-project] Initializing project
+
+check-arg:
+    [mkdir] Created dir: C:\Users\jdwin\Documents\preprocessing\00-simple\out\jdwinfodesignHtml5
+    [mkdir] Created dir: C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Users\jdwin\Documents\preprocessing\dita-ot-4.1.2
+     [echo] * dita.dir = C:\Users\jdwin\Documents\preprocessing\dita-ot-4.1.2\bin\..
+     [echo] * transtype = jdwinfodesignHtml5
+     [echo] * tempdir = C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+     [echo] * outputdir = C:\Users\jdwin\Documents\preprocessing\00-simple\out\jdwinfodesignHtml5
+     [echo] * clean.temp = no
+     [echo] * DITA-OT version = 4.1.2
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Fri Jan 03 18:07:00 EST 2025
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.base
+     [echo] dita.temp.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\00-simple\\temp\\jdwinfodesignHtml5
+     [echo] args.xsl=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.html5/xsl/dita2html5.xsl
+     [echo] args.grammar.cache=yes
+     [echo] dita.plugin.com.jdwinfodesign.doctypes.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\com.jdwinfodesign.doctypes
+     [echo] dita.plugin.org.oasis-open.xdita.v0_3_0.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.oasis-open.xdita.v0_3_0
+     [echo] dita.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\bin\\..
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.pdf2.axf
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.lwdita.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.lwdita
+     [echo] dita.plugin.com.jdwinfodesign.html5.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\com.jdwinfodesign.html5
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.htmlhelp
+     [echo] dita.output.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\00-simple\\out\\jdwinfodesignHtml5
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.normalize.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.normalize
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.com.elovirta.pdf.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\com.elovirta.pdf
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.pdf2.fop
+     [echo] args.input=C\:\\Users\\jdwin\\Documents\\preprocessing\\00-simple\\simple.ditamap
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.html5
+     [echo] dita.html5.reloadstylesheet=false
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.dita.index.dir=C\:\\Users\\jdwin\\Documents\\preprocessing\\dita-ot-4.1.2\\plugins\\org.dita.index
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess2.init:
+     [echo] *****************************************************************
+     [echo] * input = C:\Users\jdwin\Documents\preprocessing\00-simple\simple.ditamap
+     [echo] * resources = ${args.resources}
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+map-reader:
+[map-reader] Using Xerces grammar pool for DTD and schema caching.
+[map-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+[map-reader] Serializing job specification
+
+map-mapref:
+   [mapref] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+map-branch-filter:
+[branch-filter] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+map-keyref:
+   [mapref] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+map-conrefpush:
+
+map-conref:
+
+map-profile:
+  [profile] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+preprocess2.maps:
+
+topic-reader:
+[topic-reader] Using Xerces grammar pool for DTD and schema caching.
+[topic-reader] Reading file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+[topic-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+[topic-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+[topic-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+[topic-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+[topic-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+[topic-reader] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+[topic-reader] Serializing job specification
+
+topic-branch-filter:
+[branch-filter] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+topic-keyref:
+
+topic-copy-to:
+
+topic-conrefpush:
+
+topic-conref:
+
+topic-profile:
+
+preprocess2.topic-fragment:
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+topic-chunk:
+    [chunk] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+number-topics:
+[number-topics] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+[number-topics] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/add-topic-numbers.xsl
+[number-topics] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/add-topic-numbers.xsl
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+number-descendants:
+[number-descendants] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+[number-descendants] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/add-descendant-numbers.xsl
+[number-descendants] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/add-descendant-numbers.xsl
+[number-descendants] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+[number-descendants] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+[number-descendants] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+[number-descendants] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+[number-descendants] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+[number-descendants] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+topic-move-meta-entries:
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+[move-meta] Loading stylesheet C:\Users\jdwin\Documents\preprocessing\dita-ot-4.1.2\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+[move-meta] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+add-numbers-to-titles:
+[number-topics] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+[number-topics] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/prefix-titles-with-numbers.xsl
+[number-topics] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/prefix-titles-with-numbers.xsl
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+[number-topics] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+topic-maplink:
+  [maplink] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+  [maplink] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+  [maplink] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+  [maplink] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+
+topic-topicpull:
+[topicpull] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+[topicpull] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+[topicpull] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+[topicpull] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita
+[topicpull] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+[topicpull] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+[topicpull] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+preprocess2.topics.jdwinfodesign.demo:
+
+map-clean-map:
+[clean-map] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+[clean-map] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+clean-preprocess:
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/simple.ditamap
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/f11964239e9b4d89df0f782ab5d1acad237143ea.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-01.dita
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-0101.dita
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/68fe2f09acf56378c257643570461c15c5f76e01.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/concepts.dita
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/tasks.dita
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-010101.dita
+[clean-preprocess] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/references.dita
+
+copy-image2:
+     [copy] Copying 2 files to C:\Users\jdwin\Documents\preprocessing\00-simple\out\jdwinfodesignHtml5
+
+copy-html2:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files2:
+
+add-identifiers:
+[add-identifiers] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5
+[add-identifiers] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/add-identifiers.xsl
+[add-identifiers] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/com.jdwinfodesign.html5/xsl/add-identifiers.xsl
+[add-identifiers] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-01.dita
+[add-identifiers] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-010101.dita
+[add-identifiers] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-0101.dita
+[add-identifiers] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/tasks.dita
+[add-identifiers] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/concepts.dita
+[add-identifiers] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/references.dita
+
+preprocess2.jdwinfodesign.demo:
+
+html5.topic.init:
+
+html5.image-metadata:
+[image-metadata] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\section-concept-01.dita
+[image-metadata] Reading file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/images/20210720_103919.jpg
+[image-metadata] Reading file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/images/20210720_104344.jpg
+[image-metadata] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\section-concept-010101.dita
+[image-metadata] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\section-concept-0101.dita
+[image-metadata] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\tasks.dita
+[image-metadata] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\concepts.dita
+[image-metadata] Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\jdwinfodesignHtml5\references.dita
+
+html5.topics.common:
+
+html5.topics.common.inner:
+     [xslt] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\out\jdwinfodesignHtml5
+     [xslt] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.html5/xsl/dita2html5.xsl
+     [xslt] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.html5/xsl/dita2html5.xsl
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-01.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/section-concept-01.html
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-010101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/section-concept-010101.html
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/section-concept-0101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/section-concept-0101.html
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/tasks.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/tasks.html
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/concepts.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/concepts.html
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/references.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/references.html
+
+html5.topic:
+
+html5.map.init:
+
+html5.map.toc:
+     [xslt] Transforming into C:\Users\jdwin\Documents\preprocessing\00-simple\out\jdwinfodesignHtml5
+     [xslt] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.1.2/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/jdwinfodesignHtml5/simple.ditamap to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/out/jdwinfodesignHtml5/index.html
+
+html5.map:
+
+dita2jdwinfodesignHtml5:
+
+clean-temp:
+
+The process finished with exit code: 0
