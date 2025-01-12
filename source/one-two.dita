@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="one-two">
+    <title>Second grandchild</title>
+    <body>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.</p>
+    </body>
+</topic>
